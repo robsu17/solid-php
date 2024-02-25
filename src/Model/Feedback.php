@@ -4,8 +4,8 @@ namespace Alura\Solid\Model;
 
 class Feedback
 {
-    private $nota;
-    private $depoimento;
+    private int $nota;
+    private string | null $depoimento;
 
     public function __construct(int $nota, ?string $depoimento)
     {
